@@ -1,0 +1,72 @@
+nav{
+background-color:grey;
+height:92px;
+background-image: linear-gradient(to right,grey , #333, black);
+
+}
+nav ul {
+margin:0;
+padding:0;
+list-style-type: none;
+}
+
+nav li {
+float:left;
+margin-left:2em;
+margin-top:1em;
+margin-bottom:5em;
+font-size:18px;
+}
+
+nav li a{
+display: inline-block;
+color:black;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;}
+
+nav li a:hover , #dropbutton a:hover {
+color:white;
+background-color:orange;}
+
+#dropbutton{
+background-color:grey;
+position:absolute;
+z-index:1;
+display:none;
+}
+
+#dropbutton a{
+color:#333;
+display:block;
+border: .5px solid black;
+}
+
+#dropdown:hover #dropbutton{
+display:block;
+}
+
+input[type=search]{
+  width: 31%;
+  height:50px;
+  padding: 20px 20px;
+   margin: 10px 0;
+   margin-left: 1em ;
+  margin-top: 1em ;
+  box-sizing: border-box;
+  font-size: 20px;}
+.pic{
+ float:left;
+ margin-left: 2em ;
+}
+ .pic2{
+ float:right;
+ margin-right: 2em;
+ margin-top: 1.5em;
+
+}
+h2{
+color:gray;
+text-align:center;}
+
+
